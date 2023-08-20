@@ -30,3 +30,5 @@ Some text under header 3
 
 [This is a link](https://www.christoc.com)
 
+This template is from [Chris Hammond](https://www.chrishammond.com)
+
