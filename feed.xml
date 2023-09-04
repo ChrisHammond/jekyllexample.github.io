@@ -5,8 +5,8 @@
     <description>A sample Jekyll Site!</description>
     <link>https://www.JekyllExample.com/</link>
     <atom:link href="https://www.JekyllExample.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Aug 2023 17:21:04 +0000</pubDate>
-    <lastBuildDate>Mon, 07 Aug 2023 17:21:04 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Sep 2023 03:55:16 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Sep 2023 03:55:16 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -74,7 +74,7 @@
     &lt;ul&gt;
       &lt;li&gt;Navigate to the Actions/General Settings
         &lt;ul&gt;
-          &lt;li&gt;Under Workflow Permissions be sure to choose “Read and write permissions” for the Actions workflow to be able to push changes to the repository. (If you are unable to set this, try changing it at the Organization level first, then this individual repo)&lt;/li&gt;
+          &lt;li&gt;Under Workflow Permissions be sure to choose “Read and write permissions” for the Actions workflow to be able to push changes to the repository. (&lt;em&gt;If you are unable to set this, try changing it at the Organization level first, then this individual repo&lt;/em&gt;)&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -308,6 +308,8 @@ git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot
 &lt;p&gt;Some text under header 3&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.christoc.com&quot;&gt;This is a link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This template is from &lt;a href=&quot;https://www.chrishammond.com&quot;&gt;Chris Hammond&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 10 Jul 2022 23:00:15 +0000</pubDate>
