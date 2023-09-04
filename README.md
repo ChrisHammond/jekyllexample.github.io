@@ -19,3 +19,9 @@ If you have questions on the repository, feel free to [jump into our Discussions
 ### Copyright
 
 Copyright (C) 2022-2023 [Christoc.com](https://www.christoc.com/)
+
+## Release Notes
+This file will contain high level release notes, you can find [individual commits with perhaps more detailed notes](https://github.com/ChrisHammond/jekyllexample.github.io/commits/dev).
+
+### 9/3/2023 
+- Updated Workflow to use Ruby 3 to fix Gemfile.lock issues
