@@ -22,7 +22,6 @@ A couple of assumptions to start:
 3. You have Git tools installed (if you're using Windows, use Git For Windows)
 4. You have [Visual Studio Code](https://code.visualstudio.com/) installed, or some other text editor that you're comfortable with.
 
-
 ## Precursor
 This page is a work in progress, if you find something missing or wrong, let me know! [You can create an issue on the GitHub repo!](https://github.com/ChrisHammond/jekyllexample.github.io/issues)
 
