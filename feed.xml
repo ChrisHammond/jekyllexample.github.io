@@ -5,9 +5,30 @@
     <description>A sample Jekyll Site!</description>
     <link>https://www.JekyllExample.com/</link>
     <atom:link href="https://www.JekyllExample.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Jan 2024 06:00:09 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Jan 2024 06:00:09 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Jan 2024 15:05:55 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Jan 2024 15:05:55 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Example Jekyll Sites based on this Repository</title>
+        <description>&lt;p&gt;This blog post will be an ongoing list with some examples of websites that have been built based on this template/sample/repository!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.autocrossblog.com&quot;&gt;AutocrossBlog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 01 Feb 2023 10:00:15 +0000</pubDate>
+        <link>https://www.JekyllExample.com/sample-jekyll-sites</link>
+        <guid isPermaLink="true">https://www.JekyllExample.com/sample-jekyll-sites</guid>
+        
+        
+        <category>Jekyll</category>
+        
+        <category>Sample</category>
+        
+        <category>Example</category>
+        
+      </item>
     
       <item>
         <title>Easy instructions for installing Jekyll</title>

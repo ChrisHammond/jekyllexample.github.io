@@ -17,6 +17,10 @@
 <lastmod>2023-02-01T10:00:15+00:00</lastmod>
 </url>
 <url>
+<loc>https://www.jekyllexample.com/sample-jekyll-sites</loc>
+<lastmod>2023-02-01T10:00:15+00:00</lastmod>
+</url>
+<url>
 <loc>https://www.jekyllexample.com/about</loc>
 </url>
 <url>
@@ -36,5 +40,8 @@
 </url>
 <url>
 <loc>https://www.jekyllexample.com/category/tutorial/</loc>
+</url>
+<url>
+<loc>https://www.jekyllexample.com/category/example/</loc>
 </url>
 </urlset>
