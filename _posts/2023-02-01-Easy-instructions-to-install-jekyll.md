@@ -3,6 +3,7 @@ layout: post
 title: Easy instructions for installing Jekyll 
 date: '2023-02-01T10:00:15+00:00'
 permalink: easy-installation-instructions-for-jekyll
+description: A blog post that provides easy instructions for installing Jekyll.
 image: BlogPost-4.jpg
 categories: [ Jekyll, Tutorial ]
 featured: true
