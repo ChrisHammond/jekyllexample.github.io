@@ -5,8 +5,8 @@
     <description>A sample Jekyll Site!</description>
     <link>https://www.JekyllExample.com/</link>
     <atom:link href="https://www.JekyllExample.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jan 2024 18:41:07 +0000</pubDate>
-    <lastBuildDate>Thu, 18 Jan 2024 18:41:07 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Jan 2024 03:31:49 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2024 03:31:49 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
       <item>
@@ -147,7 +147,7 @@
       &lt;/li&gt;
       &lt;li&gt;
         &lt;p&gt;I use CloudFlare for my domains, so the DNS entries are configured as follows:
-&lt;img src=&quot;/assets/images_out/cloudflaredns-800-a6634d8b3.jpg&quot; alt=&quot;DNS Settings for CloudFlare&quot; srcset=&quot;/assets/images_out/cloudflaredns-400-a6634d8b3.jpg 400w, /assets/images_out/cloudflaredns-600-a6634d8b3.jpg 600w, /assets/images_out/cloudflaredns-800-a6634d8b3.jpg 800w, /assets/images_out/cloudflaredns-1000-a6634d8b3.jpg 1000w&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/images_out/cloudflaredns-800-a6634d8b3.jpg&quot; alt=&quot;DNS Settings for CloudFlare&quot; srcset=&quot;/assets/images_out/cloudflaredns-200-a6634d8b3.jpg 200w, /assets/images_out/cloudflaredns-400-a6634d8b3.jpg 400w, /assets/images_out/cloudflaredns-800-a6634d8b3.jpg 800w, /assets/images_out/cloudflaredns-1600-a6634d8b3.jpg 1600w, /assets/images_out/cloudflaredns-1823-a6634d8b3.jpg 1823w&quot; /&gt;&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;You would replace jekyllexample.com with your domain in your DNS settings.&lt;/li&gt;
     &lt;/ul&gt;
