@@ -5,9 +5,57 @@
     <description>A sample Jekyll Site!</description>
     <link>https://www.JekyllExample.com/</link>
     <atom:link href="https://www.JekyllExample.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Mar 2024 05:52:16 +0000</pubDate>
-    <lastBuildDate>Sun, 10 Mar 2024 05:52:16 +0000</lastBuildDate>
+    <pubDate>Thu, 18 Apr 2024 17:32:21 +0000</pubDate>
+    <lastBuildDate>Thu, 18 Apr 2024 17:32:21 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Installing Jekyll locally on Ubuntu and getting it running using Windows Hyper-V</title>
+        <description>&lt;h1 id=&quot;this-post-is-still-a-work-in-progress-as-of-04182024&quot;&gt;&lt;em&gt;This post is still a work in progress as of 04/18/2024&lt;/em&gt;&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a new Hyper-V VM installing Ubuntu 22.04&lt;/li&gt;
+  &lt;li&gt;Run updates for Ubuntu (reboot if necessary)&lt;/li&gt;
+  &lt;li&gt;Install GIT
+    &lt;blockquote&gt;
+      &lt;p&gt;sudo apt install git&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Install Bundler
+    &lt;blockquote&gt;
+      &lt;p&gt;sudo apt install bundler&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.chrishammond.com/blog/itemid/3178/how-to-upgrade-ruby-on-ubuntu-2204-using-rbenv&quot;&gt;Install RBEnv to allow for multiple versions of Ruby&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Install Jekyll GEM&lt;/li&gt;
+  &lt;li&gt;Install other required libraries
+    &lt;blockquote&gt;
+      &lt;p&gt;sudo apt install libvips-tools&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Run Jekyll
+    &lt;blockquote&gt;
+      &lt;p&gt;bundle exec jekyll serve&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Browse to http://127.0.0.1:4000&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next steps:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;If you have a large repository, or a large number of repositories, you might run out of disk space on your Hyper-V VM, if that’s the case &lt;a href=&quot;https://www.chrishammond.com/blog/itemid/3179/expanding-your-ubuntu-disk-running-in-a-virtual-ma&quot;&gt;check out this tutorial for how to expand your Ubuntu disk&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 18 Apr 2024 10:00:15 +0000</pubDate>
+        <link>https://www.JekyllExample.com/jekyll-on-ubuntu</link>
+        <guid isPermaLink="true">https://www.JekyllExample.com/jekyll-on-ubuntu</guid>
+        
+        
+        <category>Jekyll</category>
+        
+        <category>Tutorial</category>
+        
+      </item>
     
       <item>
         <title>Example Jekyll Sites based on this Repository</title>
