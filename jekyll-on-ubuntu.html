@@ -264,7 +264,7 @@
 									<!-- Author Box -->
 
 									<!-- Post Title -->
-									<h1 class="posttitle">
+									<h1 class="posttitle" itemprop="headline">
 										Installing Jekyll locally on Ubuntu and getting it running
 										using Windows Hyper-V
 									</h1>
@@ -332,12 +332,47 @@
 											</blockquote>
 										</li>
 										<li>
-											Run Jekyll
+											Create a projects directory via a terminal:
+											<blockquote>
+												<p>mkdir projects</p>
+											</blockquote>
+										</li>
+										<li>
+											Navigate into the project directory:
+											<blockquote>
+												<p>cd projects</p>
+											</blockquote>
+										</li>
+										<li>
+											Clone the JekyllExample repository, from a Terminal in
+											Ubunty type
+											<blockquote>
+												<p>
+													git clone
+													https://github.com/ChrisHammond/jekyllexample.github.io.git
+												</p>
+											</blockquote>
+										</li>
+										<li>
+											Navigate into the new directory
+											<blockquote>
+												<p>cd jekyllexample.github.io</p>
+											</blockquote>
+										</li>
+										<li>
+											Run the following terminal command to get everything
+											installed properly
+											<blockquote>
+												<p>bundle install</p>
+											</blockquote>
+										</li>
+										<li>
+											Run Jekyll to start a local webserver
 											<blockquote>
 												<p>bundle exec jekyll serve</p>
 											</blockquote>
 										</li>
-										<li>Browse to http://127.0.0.1:4000</li>
+										<li>Browse to http://127.0.0.1:4000 in your web browser</li>
 									</ol>
 
 									<h2 id="next-steps">Next steps:</h2>
@@ -352,7 +387,23 @@
 												disk</a
 											>.
 										</li>
+										<li>
+											Install Homebrew and Git Credential Manager
+											<blockquote>
+												<p>
+													/bin/bash -c “$(curl -fsSL
+													https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
+												</p>
+											</blockquote>
+										</li>
 									</ol>
+
+									<blockquote>
+										<p>
+											brew tap microsoft/git brew install –cask
+											git-credential-manager-core
+										</p>
+									</blockquote>
 								</div>
 
 								<!-- Rating -->
