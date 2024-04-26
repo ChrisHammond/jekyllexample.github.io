@@ -82,5 +82,13 @@ picture:
       source_default:
         width: "300"
 
+#any defaults we want to set, the first one sets the default author for all posts
+defaults:
+  - scope:
+      path: ""  # An empty string here means all files
+      type: "posts"
+    values:
+      author: "chris"
+
 # exclude:
 #  - /assets/images/*
