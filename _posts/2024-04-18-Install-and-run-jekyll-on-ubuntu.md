@@ -21,10 +21,24 @@ comments: false
 6. Install Jekyll GEM
 7. Install other required libraries
 > sudo apt install libvips-tools
-8. Run Jekyll
+8. Create a projects directory via a terminal:
+> mkdir projects
+9. Navigate into the project directory:
+> cd projects
+10. Clone the JekyllExample repository, from a Terminal in Ubunty type
+> git clone https://github.com/ChrisHammond/jekyllexample.github.io.git
+11. Navigate into the new directory
+> cd jekyllexample.github.io
+12. Run the following terminal command to get everything installed properly
+> bundle install
+13. Run Jekyll to start a local webserver
 > bundle exec jekyll serve
-9. Browse to http://127.0.0.1:4000
-
+14. Browse to http://127.0.0.1:4000 in your web browser
 
 ## Next steps:
 1. If you have a large repository, or a large number of repositories, you might run out of disk space on your Hyper-V VM, if that's the case [check out this tutorial for how to expand your Ubuntu disk](https://www.chrishammond.com/blog/itemid/3179/expanding-your-ubuntu-disk-running-in-a-virtual-ma).
+2. Install Homebrew and Git Credential Manager
+> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+> brew tap microsoft/git
+> brew install --cask git-credential-manager-core
