@@ -260,458 +260,479 @@
 							<!-- Post -->
 
 							<div class="col-md-9 flex-first flex-md-unordered">
-								<div class="mainheading">
-									<!-- Author Box -->
+								<article itemscope itemtype="http://schema.org/BlogPosting">
+									<div class="mainheading">
+										<header>
+											<!-- Post Title -->
+											<h1 class="posttitle" itemprop="headline">
+												Easy instructions for installing Jekyll
+											</h1>
 
-									<!-- Post Title -->
-									<h1 class="posttitle" itemprop="headline">
-										Easy instructions for installing Jekyll
-									</h1>
-								</div>
+											<!-- Post Date -->
+											<div style="float: right">
+												<small>
+													<span class="post-date" style="text-align: right"
+														>Posted:
+														<time
+															class="post-date"
+															datetime="2023-02-01T10:00:15+00:00"
+															itemprop="datePublished"
+															>Feb 1, 2023 10:00</time
+														>
+														<br />
+													</span>
+												</small>
+											</div>
 
-								<!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+											<!-- Author Box -->
+										</header>
+									</div>
 
-								<!-- End Adsense -->
+									<!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
 
-								<!-- Post Featured Image -->
+									<!-- End Adsense -->
 
-								<img
-									class="featured-image img-fluid lazyimg"
-									src="/assets/images_out/BlogPost-4-800-242f9970b.jpg"
-									alt="Easy instructions for installing Jekyll"
-									srcset="
-										/assets/images_out/BlogPost-4-200-242f9970b.jpg   200w,
-										/assets/images_out/BlogPost-4-400-242f9970b.jpg   400w,
-										/assets/images_out/BlogPost-4-800-242f9970b.jpg   800w,
-										/assets/images_out/BlogPost-4-1600-242f9970b.jpg 1600w,
-										/assets/images_out/BlogPost-4-2000-242f9970b.jpg 2000w
-									"
-								/>
+									<!-- Post Featured Image -->
 
-								<!-- End Featured Image -->
+									<img
+										class="featured-image img-fluid lazyimg"
+										src="/assets/images_out/BlogPost-4-800-242f9970b.jpg"
+										alt="Easy instructions for installing Jekyll"
+										srcset="
+											/assets/images_out/BlogPost-4-200-242f9970b.jpg   200w,
+											/assets/images_out/BlogPost-4-400-242f9970b.jpg   400w,
+											/assets/images_out/BlogPost-4-800-242f9970b.jpg   800w,
+											/assets/images_out/BlogPost-4-1600-242f9970b.jpg 1600w,
+											/assets/images_out/BlogPost-4-2000-242f9970b.jpg 2000w
+										"
+									/>
 
-								<!-- Post Content -->
-								<div class="article-post">
-									<!-- Toc if any -->
+									<!-- End Featured Image -->
 
-									<!-- End Toc -->
-									<h1 id="this-post-is-still-a-work-in-progress-as-of-11302023">
-										<em
-											>This post is still a work in progress as of
-											11/30/2023</em
+									<!-- Post Content -->
+									<div class="article-post">
+										<!-- Toc if any -->
+
+										<!-- End Toc -->
+										<h1
+											id="this-post-is-still-a-work-in-progress-as-of-11302023"
 										>
-									</h1>
-
-									<p>
-										The goal for this blog post is to provide easy instructions
-										for installing Jekyll.
-									</p>
-
-									<p>
-										If you follow these steps, you should be able to create a
-										new Jekyll web site utilizing GitHub and GitHub Pages to
-										host your repository and web site.
-									</p>
-
-									<p>
-										We will walk you through the process of cloning the
-										repository, making some changes to the site to configure it
-										to be your own, and then ultimately getting your website
-										published using your own custom domain name.
-									</p>
-
-									<p>A couple of assumptions to start:</p>
-									<ol>
-										<li>
-											<a href="https://github.com/signup"
-												>You have a GitHub account created</a
-											>.
-										</li>
-										<li>
-											You have already purchased a custom domain name to use
-											(you can bypass this and create a site using
-											SITENAME.github.io)
-										</li>
-										<li>
-											You have Git tools installed (if you’re using Windows, use
-											Git For Windows)
-										</li>
-										<li>
-											You have
-											<a href="https://code.visualstudio.com/"
-												>Visual Studio Code</a
+											<em
+												>This post is still a work in progress as of
+												11/30/2023</em
 											>
-											installed, or some other text editor that you’re
-											comfortable with.
-										</li>
-									</ol>
+										</h1>
 
-									<h2 id="precursor">Precursor</h2>
-									<p>
-										This page is a work in progress, if you find something
-										missing or wrong, let me know!
-										<a
-											href="https://github.com/ChrisHammond/jekyllexample.github.io/issues"
-											>You can create an issue on the GitHub repo!</a
-										>
-									</p>
+										<p>
+											The goal for this blog post is to provide easy
+											instructions for installing Jekyll.
+										</p>
 
-									<h2 id="instructions">Instructions</h2>
+										<p>
+											If you follow these steps, you should be able to create a
+											new Jekyll web site utilizing GitHub and GitHub Pages to
+											host your repository and web site.
+										</p>
 
-									<ol>
-										<li>
-											Create a new Organization on GitHub
-											<ul>
-												<li>
-													A free organization account will be sufficient. For
-													our example organization, we will used
-													JekyllExampleWeb (JekyllExample was already taken).
-												</li>
-												<li>
-													Creating a new organization for each custom domain
-													name you are going to use makes it easier to setup and
-													manage multiple sites. You theoretically could get by
-													with
-													<a
-														href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites"
-														>one Organization or just multiple projects under
-														your user account</a
-													>, but I find it easier to manage multiple sites this
-													way.
-												</li>
-											</ul>
-										</li>
-										<li>
+										<p>
+											We will walk you through the process of cloning the
+											repository, making some changes to the site to configure
+											it to be your own, and then ultimately getting your
+											website published using your own custom domain name.
+										</p>
+
+										<p>A couple of assumptions to start:</p>
+										<ol>
+											<li>
+												<a href="https://github.com/signup"
+													>You have a GitHub account created</a
+												>.
+											</li>
+											<li>
+												You have already purchased a custom domain name to use
+												(you can bypass this and create a site using
+												SITENAME.github.io)
+											</li>
+											<li>
+												You have Git tools installed (if you’re using Windows,
+												use Git For Windows)
+											</li>
+											<li>
+												You have
+												<a href="https://code.visualstudio.com/"
+													>Visual Studio Code</a
+												>
+												installed, or some other text editor that you’re
+												comfortable with.
+											</li>
+										</ol>
+
+										<h2 id="precursor">Precursor</h2>
+										<p>
+											This page is a work in progress, if you find something
+											missing or wrong, let me know!
 											<a
-												href="https://github.com/ChrisHammond/jekyllexample.github.io/generate"
-												>Create a new repository based off the JekyllExample
-												repository</a
+												href="https://github.com/ChrisHammond/jekyllexample.github.io/issues"
+												>You can create an issue on the GitHub repo!</a
 											>
-											<ul>
-												<li>
-													While logged into GitHub, you should see a button that
-													says “Use this template” next to the Code button in
-													the JekyllExample repo, creating on the Use this
-													template button will allow you to create a fork that
-													is disconnected from the original repo and doesn’t
-													bring over all the change history.
-												</li>
-												<li>
-													Be sure to check the “Include all branches” option
-													when doing this, otherwise MAIN won’t come over and
-													the workflow won’t work.
-												</li>
-											</ul>
-										</li>
-										<li>
-											Rename the repository to match the domain name that you
-											want to use for GitHub Pages
-											<ul>
-												<li>
-													As soon as you fork the repository, you can rename it.
-													You will want to rename it to match the domain name
-													that you want to use for GitHub Pages, for example we
-													use jekyllexample.com, so the repository is
-													jekyllexample.github.io.
-												</li>
-											</ul>
-										</li>
-										<li>
-											Clone the repository to your local machine for editing
-											<ul>
-												<li>
-													You can clone the repository to your local machine
-													using the following command, (assuming you have Git
-													installed, start up Git Bash and then navigate to the
-													folder where you want to clone the repository to)
-													<div class="language-bash highlighter-rouge">
-														<div class="highlight">
-															<pre
-																class="highlight"
-															><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+										</p>
+
+										<h2 id="instructions">Instructions</h2>
+
+										<ol>
+											<li>
+												Create a new Organization on GitHub
+												<ul>
+													<li>
+														A free organization account will be sufficient. For
+														our example organization, we will used
+														JekyllExampleWeb (JekyllExample was already taken).
+													</li>
+													<li>
+														Creating a new organization for each custom domain
+														name you are going to use makes it easier to setup
+														and manage multiple sites. You theoretically could
+														get by with
+														<a
+															href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites"
+															>one Organization or just multiple projects under
+															your user account</a
+														>, but I find it easier to manage multiple sites
+														this way.
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a
+													href="https://github.com/ChrisHammond/jekyllexample.github.io/generate"
+													>Create a new repository based off the JekyllExample
+													repository</a
+												>
+												<ul>
+													<li>
+														While logged into GitHub, you should see a button
+														that says “Use this template” next to the Code
+														button in the JekyllExample repo, creating on the
+														Use this template button will allow you to create a
+														fork that is disconnected from the original repo and
+														doesn’t bring over all the change history.
+													</li>
+													<li>
+														Be sure to check the “Include all branches” option
+														when doing this, otherwise MAIN won’t come over and
+														the workflow won’t work.
+													</li>
+												</ul>
+											</li>
+											<li>
+												Rename the repository to match the domain name that you
+												want to use for GitHub Pages
+												<ul>
+													<li>
+														As soon as you fork the repository, you can rename
+														it. You will want to rename it to match the domain
+														name that you want to use for GitHub Pages, for
+														example we use jekyllexample.com, so the repository
+														is jekyllexample.github.io.
+													</li>
+												</ul>
+											</li>
+											<li>
+												Clone the repository to your local machine for editing
+												<ul>
+													<li>
+														You can clone the repository to your local machine
+														using the following command, (assuming you have Git
+														installed, start up Git Bash and then navigate to
+														the folder where you want to clone the repository
+														to)
+														<div class="language-bash highlighter-rouge">
+															<div class="highlight">
+																<pre
+																	class="highlight"
+																><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre> git clone https://github.com/ORGANIZATION/SITENAME.github.io.git
 </pre></td></tr></tbody></table></code></pre>
+															</div>
 														</div>
-													</div>
-												</li>
-												<li>
-													Where SITENAME is the name of your repository that you
-													modified in Step 3.
-												</li>
-											</ul>
-										</li>
-										<li>
-											Open the repository in Visual Studio Code
-											<ul>
-												<li>
-													You can open the repository in Visual Studio Code
-													using the following command:
-													<div class="language-bash highlighter-rouge">
-														<div class="highlight">
-															<pre
-																class="highlight"
-															><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+													</li>
+													<li>
+														Where SITENAME is the name of your repository that
+														you modified in Step 3.
+													</li>
+												</ul>
+											</li>
+											<li>
+												Open the repository in Visual Studio Code
+												<ul>
+													<li>
+														You can open the repository in Visual Studio Code
+														using the following command:
+														<div class="language-bash highlighter-rouge">
+															<div class="highlight">
+																<pre
+																	class="highlight"
+																><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre> code SITENAME.github.io
 </pre></td></tr></tbody></table></code></pre>
+															</div>
 														</div>
-													</div>
-												</li>
-												<li>
-													Where SITENAME is the name of your repository that you
-													modified in Step 3.
-												</li>
-											</ul>
-										</li>
-										<li>
-											Navigate to the Repository Settings in GitHub
-											<ul>
-												<li>
-													Navigate to the Actions/General Settings
-													<ul>
-														<li>
-															Under Workflow Permissions be sure to choose “Read
-															and write permissions” for the Actions workflow to
-															be able to push changes to the repository. (<em
-																>If you are unable to set this, try changing it
-																at the Organization level first, then this
-																individual repo</em
-															>)
-														</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li>
-											Change the _config.yml file
-											<ul>
-												<li>
-													This file has a number of variables for options for
-													your site, such as Title, Description, Author, etc.
-													You will want to customize these to start to brand and
-													name your site.
-												</li>
-												<li>
-													If you’re using Google Analytics you can configure the
-													MEASUREMENT ID here as well.
-												</li>
-											</ul>
-										</li>
-										<li>
-											Edit the CNAME file in the root of the repository to match
-											your custom domain name
-											<ul>
-												<li>
-													If you’re not using a custom domain name, you can
-													delete this file.
-												</li>
-											</ul>
-										</li>
-										<li>
-											Commit your changes to the GitHub repository and push
-											them.
-											<div class="language-bash highlighter-rouge">
-												<div class="highlight">
-													<pre
-														class="highlight"
-													><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+													</li>
+													<li>
+														Where SITENAME is the name of your repository that
+														you modified in Step 3.
+													</li>
+												</ul>
+											</li>
+											<li>
+												Navigate to the Repository Settings in GitHub
+												<ul>
+													<li>
+														Navigate to the Actions/General Settings
+														<ul>
+															<li>
+																Under Workflow Permissions be sure to choose
+																“Read and write permissions” for the Actions
+																workflow to be able to push changes to the
+																repository. (<em
+																	>If you are unable to set this, try changing
+																	it at the Organization level first, then this
+																	individual repo</em
+																>)
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li>
+												Change the _config.yml file
+												<ul>
+													<li>
+														This file has a number of variables for options for
+														your site, such as Title, Description, Author, etc.
+														You will want to customize these to start to brand
+														and name your site.
+													</li>
+													<li>
+														If you’re using Google Analytics you can configure
+														the MEASUREMENT ID here as well.
+													</li>
+												</ul>
+											</li>
+											<li>
+												Edit the CNAME file in the root of the repository to
+												match your custom domain name
+												<ul>
+													<li>
+														If you’re not using a custom domain name, you can
+														delete this file.
+													</li>
+												</ul>
+											</li>
+											<li>
+												Commit your changes to the GitHub repository and push
+												them.
+												<div class="language-bash highlighter-rouge">
+													<div class="highlight">
+														<pre
+															class="highlight"
+														><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 </pre></td><td class="rouge-code"><pre> git add <span class="nb">.</span>
  git commit <span class="nt">-m</span> <span class="s2">"Some updated comment about the commit here"</span>
  git push
 </pre></td></tr></tbody></table></code></pre>
+													</div>
 												</div>
-											</div>
-											<ul>
-												<li>
-													You may be prompted to configure your GitHub
-													credentials at this point,
-													<a
-														href="https://stackoverflow.com/questions/46878457/adding-git-credentials-on-windows"
-														>here’s an approach on how to do that</a
-													>.
-												</li>
-											</ul>
-										</li>
-										<li>
-											Configure the repository settings for GitHub Pages and
-											Workflow to allow for deployment
-											<ul>
-												<li>
-													In the GitHub Repository Settings, you will want to
-													configure the following:
-													<ul>
-														<li>
-															Under the GitHub Settings find the GitHub Pages
-															section
-														</li>
-														<li>Under Source choose “Deploy from a branch”</li>
-														<li>Under Branch choose “main” and “/(root)”</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li>
-											Configure your DNS for your domain to point to GitHub
-											pages
-											<ul>
-												<li>
-													You will need to do this before step 10 so that GitHub
-													can verify and find your custom domain name configured
-													properly.
-												</li>
-												<li>
-													You basically need to setup A records for your domain
-													name that point to the following IP addresses:
-													<ul>
-														<li>185.199.108.153</li>
-														<li>185.199.109.153</li>
-														<li>185.199.110.153</li>
-														<li>185.199.111.153</li>
-													</ul>
-												</li>
-												<li>
-													<p>
-														I use CloudFlare for my domains, so the DNS entries
-														are configured as follows:
-														<img
-															src="/assets/images_out/cloudflaredns-800-a6634d8b3.jpg"
-															alt="DNS Settings for CloudFlare"
-															srcset="
-																/assets/images_out/cloudflaredns-200-a6634d8b3.jpg   200w,
-																/assets/images_out/cloudflaredns-400-a6634d8b3.jpg   400w,
-																/assets/images_out/cloudflaredns-800-a6634d8b3.jpg   800w,
-																/assets/images_out/cloudflaredns-1600-a6634d8b3.jpg 1600w,
-																/assets/images_out/cloudflaredns-1823-a6634d8b3.jpg 1823w
-															"
-														/>
-													</p>
-												</li>
-												<li>
-													You would replace jekyllexample.com with your domain
-													in your DNS settings.
-												</li>
-											</ul>
-										</li>
-										<li>
-											Configure your custom Domain Name
-											<ul>
-												<li>
-													Under the GitHub Settings find the GitHub Pages
-													section
-												</li>
-												<li>
-													Under Custom Domain, enter your custom domain name
-													(ex: jekyllexample.com)
-												</li>
-											</ul>
-										</li>
-										<li>
-											Navigate to the Actions tab in the GitHub interface
-											<ul>
-												<li>
-													You should see your commit that you pushed in step 8,
-													and you should see a workflow that is running (or has
-													ran).
-												</li>
-												<li>
-													After that you should see a second action that is
-													running (or has ran) something like “pages build and
-													deployment”
-												</li>
-												<li>
-													If both of those actions have completed successfully,
-													you should be able to navigate to your custom domain
-													name and see your site.
-												</li>
-											</ul>
-										</li>
-										<li>
-											Next steps! Edit the blog posts in the _posts folder, or
-											delete them and create your own posts.
-											<ul>
-												<li>
-													The easiest way to create a new post is to simply copy
-													and paste one of the existing posts
-													<ul>
-														<li>
-															Rename the file to match the date and title of
-															your post
-														</li>
-														<li>
-															Edit the file to change the content/title and
-															importantly be sure to update the published date
-															to the dat you want the post to be.
-														</li>
-														<li>
-															Commit and push your changes to GitHub and you
-															should see your new post on your site after the
-															workflow completes.
-														</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-									</ol>
-								</div>
+												<ul>
+													<li>
+														You may be prompted to configure your GitHub
+														credentials at this point,
+														<a
+															href="https://stackoverflow.com/questions/46878457/adding-git-credentials-on-windows"
+															>here’s an approach on how to do that</a
+														>.
+													</li>
+												</ul>
+											</li>
+											<li>
+												Configure the repository settings for GitHub Pages and
+												Workflow to allow for deployment
+												<ul>
+													<li>
+														In the GitHub Repository Settings, you will want to
+														configure the following:
+														<ul>
+															<li>
+																Under the GitHub Settings find the GitHub Pages
+																section
+															</li>
+															<li>
+																Under Source choose “Deploy from a branch”
+															</li>
+															<li>Under Branch choose “main” and “/(root)”</li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li>
+												Configure your DNS for your domain to point to GitHub
+												pages
+												<ul>
+													<li>
+														You will need to do this before step 10 so that
+														GitHub can verify and find your custom domain name
+														configured properly.
+													</li>
+													<li>
+														You basically need to setup A records for your
+														domain name that point to the following IP
+														addresses:
+														<ul>
+															<li>185.199.108.153</li>
+															<li>185.199.109.153</li>
+															<li>185.199.110.153</li>
+															<li>185.199.111.153</li>
+														</ul>
+													</li>
+													<li>
+														<p>
+															I use CloudFlare for my domains, so the DNS
+															entries are configured as follows:
+															<img
+																src="/assets/images_out/cloudflaredns-800-a6634d8b3.jpg"
+																alt="DNS Settings for CloudFlare"
+																srcset="
+																	/assets/images_out/cloudflaredns-200-a6634d8b3.jpg   200w,
+																	/assets/images_out/cloudflaredns-400-a6634d8b3.jpg   400w,
+																	/assets/images_out/cloudflaredns-800-a6634d8b3.jpg   800w,
+																	/assets/images_out/cloudflaredns-1600-a6634d8b3.jpg 1600w,
+																	/assets/images_out/cloudflaredns-1823-a6634d8b3.jpg 1823w
+																"
+															/>
+														</p>
+													</li>
+													<li>
+														You would replace jekyllexample.com with your domain
+														in your DNS settings.
+													</li>
+												</ul>
+											</li>
+											<li>
+												Configure your custom Domain Name
+												<ul>
+													<li>
+														Under the GitHub Settings find the GitHub Pages
+														section
+													</li>
+													<li>
+														Under Custom Domain, enter your custom domain name
+														(ex: jekyllexample.com)
+													</li>
+												</ul>
+											</li>
+											<li>
+												Navigate to the Actions tab in the GitHub interface
+												<ul>
+													<li>
+														You should see your commit that you pushed in step
+														8, and you should see a workflow that is running (or
+														has ran).
+													</li>
+													<li>
+														After that you should see a second action that is
+														running (or has ran) something like “pages build and
+														deployment”
+													</li>
+													<li>
+														If both of those actions have completed
+														successfully, you should be able to navigate to your
+														custom domain name and see your site.
+													</li>
+												</ul>
+											</li>
+											<li>
+												Next steps! Edit the blog posts in the _posts folder, or
+												delete them and create your own posts.
+												<ul>
+													<li>
+														The easiest way to create a new post is to simply
+														copy and paste one of the existing posts
+														<ul>
+															<li>
+																Rename the file to match the date and title of
+																your post
+															</li>
+															<li>
+																Edit the file to change the content/title and
+																importantly be sure to update the published date
+																to the dat you want the post to be.
+															</li>
+															<li>
+																Commit and push your changes to GitHub and you
+																should see your new post on your site after the
+																workflow completes.
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+										</ol>
+									</div>
 
-								<!-- Rating -->
+									<!-- Rating -->
 
-								<!-- Post Date -->
-								<p>
-									<small>
-										<span class="post-date"
-											><time class="post-date" datetime="2023-02-01"
-												>01 Feb 2023</time
-											></span
+									<footer>
+										<!-- Author Box -->
+									</footer>
+									<!-- Post Categories -->
+									<div class="after-post-cats">
+										<ul class="tags mb-4">
+											<small>Categories:</small>
+
+											<li>
+												<a class="smoothscroll" href="/categories#Jekyll"
+													>Jekyll</a
+												>
+											</li>
+
+											<li>
+												<a class="smoothscroll" href="/categories#Tutorial"
+													>Tutorial</a
+												>
+											</li>
+										</ul>
+									</div>
+									<!-- End Categories -->
+
+									<!-- Post Tags -->
+									<div class="after-post-tags">
+										<ul class="tags"></ul>
+									</div>
+									<!-- End Tags -->
+
+									<!-- Prev/Next -->
+									<div
+										class="row PageNavigation d-flex justify-content-between font-weight-bold"
+									>
+										<a
+											class="prev d-block col-md-6"
+											href="/getting-started-with-jekyll"
 										>
-									</small>
-								</p>
+											&laquo; Getting started with Jekyll</a
+										>
 
-								<!-- Post Categories -->
-								<div class="after-post-cats">
-									<ul class="tags mb-4">
-										<li>
-											<a class="smoothscroll" href="/categories#Jekyll"
-												>Jekyll</a
-											>
-										</li>
+										<a
+											class="next d-block col-md-6 text-lg-right"
+											href="/sample-jekyll-sites"
+											>Example Jekyll Sites based on this Repository &raquo;
+										</a>
 
-										<li>
-											<a class="smoothscroll" href="/categories#Tutorial"
-												>Tutorial</a
-											>
-										</li>
-									</ul>
-								</div>
-								<!-- End Categories -->
-
-								<!-- Post Tags -->
-								<div class="after-post-tags">
-									<ul class="tags"></ul>
-								</div>
-								<!-- End Tags -->
-
-								<!-- Prev/Next -->
-								<div
-									class="row PageNavigation d-flex justify-content-between font-weight-bold"
-								>
-									<a
-										class="prev d-block col-md-6"
-										href="/getting-started-with-jekyll"
-									>
-										&laquo; Getting started with Jekyll</a
-									>
-
-									<a
-										class="next d-block col-md-6 text-lg-right"
-										href="/sample-jekyll-sites"
-										>Example Jekyll Sites based on this Repository &raquo;
-									</a>
-
-									<div class="clearfix"></div>
-								</div>
-								<!-- End Categories -->
+										<div class="clearfix"></div>
+									</div>
+									<!-- End Categories -->
+								</article>
 							</div>
 							<!-- End Post -->
 						</div>
@@ -766,9 +787,8 @@ https://search.google.com/structured-data/testing-tool/u/0/
 						</div>
 						<div class="col-md-6 col-sm-6 text-center text-lg-right">
 							Forked from
-							<a target="_blank" href="https://www.chrishammond.com/"
-								>Chris Hammond</a
-							>'s <a href="https://jekyllexample.com">JekyllExample.com</a>.
+							<a href="https://www.chrishammond.com/">Chris Hammond</a>'s
+							<a href="https://jekyllexample.com">JekyllExample.com</a>.
 						</div>
 					</div>
 				</div>

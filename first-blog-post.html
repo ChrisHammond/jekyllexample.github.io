@@ -250,126 +250,142 @@
 							<!-- Post -->
 
 							<div class="col-md-9 flex-first flex-md-unordered">
-								<div class="mainheading">
-									<!-- Author Box -->
+								<article itemscope itemtype="http://schema.org/BlogPosting">
+									<div class="mainheading">
+										<header>
+											<!-- Post Title -->
+											<h1 class="posttitle" itemprop="headline">
+												First Blog Post
+											</h1>
 
-									<!-- Post Title -->
-									<h1 class="posttitle" itemprop="headline">First Blog Post</h1>
-								</div>
+											<!-- Post Date -->
+											<div style="float: right">
+												<small>
+													<span class="post-date" style="text-align: right"
+														>Posted:
+														<time
+															class="post-date"
+															datetime="2022-07-10T23:00:15+00:00"
+															itemprop="datePublished"
+															>Jul 10, 2022 23:00</time
+														>
+														<br />
+													</span>
+												</small>
+											</div>
 
-								<!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+											<!-- Author Box -->
+										</header>
+									</div>
 
-								<!-- End Adsense -->
+									<!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
 
-								<!-- Post Featured Image -->
+									<!-- End Adsense -->
 
-								<img
-									class="featured-image img-fluid lazyimg"
-									src="/assets/images_out/BlogPost-1-800-20109ac88.jpg"
-									alt="First Blog Post"
-									srcset="
-										/assets/images_out/BlogPost-1-200-20109ac88.jpg   200w,
-										/assets/images_out/BlogPost-1-400-20109ac88.jpg   400w,
-										/assets/images_out/BlogPost-1-800-20109ac88.jpg   800w,
-										/assets/images_out/BlogPost-1-1600-20109ac88.jpg 1600w,
-										/assets/images_out/BlogPost-1-2000-20109ac88.jpg 2000w
-									"
-								/>
+									<!-- Post Featured Image -->
 
-								<!-- End Featured Image -->
+									<img
+										class="featured-image img-fluid lazyimg"
+										src="/assets/images_out/BlogPost-1-800-20109ac88.jpg"
+										alt="First Blog Post"
+										srcset="
+											/assets/images_out/BlogPost-1-200-20109ac88.jpg   200w,
+											/assets/images_out/BlogPost-1-400-20109ac88.jpg   400w,
+											/assets/images_out/BlogPost-1-800-20109ac88.jpg   800w,
+											/assets/images_out/BlogPost-1-1600-20109ac88.jpg 1600w,
+											/assets/images_out/BlogPost-1-2000-20109ac88.jpg 2000w
+										"
+									/>
 
-								<!-- Post Content -->
-								<div class="article-post">
-									<!-- Toc if any -->
+									<!-- End Featured Image -->
 
-									<!-- End Toc -->
-									<p>This is the first blog post using JekyllExample.com.</p>
+									<!-- Post Content -->
+									<div class="article-post">
+										<!-- Toc if any -->
 
-									<blockquote>
-										<p>This is a quote inside that first blog post</p>
-									</blockquote>
+										<!-- End Toc -->
+										<p>This is the first blog post using JekyllExample.com.</p>
 
-									<ol>
-										<li>
-											This is a list item
-											<ul>
-												<li>This is a nested list item</li>
-											</ul>
-										</li>
-										<li>
-											This is a second list item
-											<ul>
-												<li>
-													This is a nested list item
-													<ul>
-														<li>This is a nested-nested list item</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-									</ol>
+										<blockquote>
+											<p>This is a quote inside that first blog post</p>
+										</blockquote>
 
-									<h1 id="header-1">Header 1</h1>
-									<p>Some text under header 1</p>
+										<ol>
+											<li>
+												This is a list item
+												<ul>
+													<li>This is a nested list item</li>
+												</ul>
+											</li>
+											<li>
+												This is a second list item
+												<ul>
+													<li>
+														This is a nested list item
+														<ul>
+															<li>This is a nested-nested list item</li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+										</ol>
 
-									<h2 id="header-2">Header 2</h2>
-									<p>Some text under header 2</p>
+										<h1 id="header-1">Header 1</h1>
+										<p>Some text under header 1</p>
 
-									<h3 id="header-3">Header 3</h3>
-									<p>Some text under header 3</p>
+										<h2 id="header-2">Header 2</h2>
+										<p>Some text under header 2</p>
 
-									<p><a href="https://www.christoc.com">This is a link</a></p>
+										<h3 id="header-3">Header 3</h3>
+										<p>Some text under header 3</p>
 
-									<p>
-										This template is from
-										<a href="https://www.chrishammond.com">Chris Hammond</a>
-									</p>
-								</div>
+										<p><a href="https://www.christoc.com">This is a link</a></p>
 
-								<!-- Rating -->
+										<p>
+											This template is from
+											<a href="https://www.chrishammond.com">Chris Hammond</a>
+										</p>
+									</div>
 
-								<!-- Post Date -->
-								<p>
-									<small>
-										<span class="post-date"
-											><time class="post-date" datetime="2022-07-10"
-												>10 Jul 2022</time
-											></span
-										>
-									</small>
-								</p>
+									<!-- Rating -->
 
-								<!-- Post Categories -->
-								<div class="after-post-cats">
-									<ul class="tags mb-4">
-										<li>
-											<a class="smoothscroll" href="/categories#Sample"
-												>Sample</a
-											>
-										</li>
-									</ul>
-								</div>
-								<!-- End Categories -->
+									<footer>
+										<!-- Author Box -->
+									</footer>
+									<!-- Post Categories -->
+									<div class="after-post-cats">
+										<ul class="tags mb-4">
+											<small>Categories:</small>
 
-								<!-- Post Tags -->
-								<div class="after-post-tags">
-									<ul class="tags"></ul>
-								</div>
-								<!-- End Tags -->
+											<li>
+												<a class="smoothscroll" href="/categories#Sample"
+													>Sample</a
+												>
+											</li>
+										</ul>
+									</div>
+									<!-- End Categories -->
 
-								<!-- Prev/Next -->
-								<div
-									class="row PageNavigation d-flex justify-content-between font-weight-bold"
-								>
-									<a
-										class="next d-block col-md-6 text-lg-right"
-										href="/second-blog-post"
-										>Non-featured Blog Post &raquo;
-									</a>
+									<!-- Post Tags -->
+									<div class="after-post-tags">
+										<ul class="tags"></ul>
+									</div>
+									<!-- End Tags -->
 
-									<div class="clearfix"></div>
-								</div>
-								<!-- End Categories -->
+									<!-- Prev/Next -->
+									<div
+										class="row PageNavigation d-flex justify-content-between font-weight-bold"
+									>
+										<a
+											class="next d-block col-md-6 text-lg-right"
+											href="/second-blog-post"
+											>Non-featured Blog Post &raquo;
+										</a>
+
+										<div class="clearfix"></div>
+									</div>
+									<!-- End Categories -->
+								</article>
 							</div>
 							<!-- End Post -->
 						</div>
@@ -424,9 +440,8 @@ https://search.google.com/structured-data/testing-tool/u/0/
 						</div>
 						<div class="col-md-6 col-sm-6 text-center text-lg-right">
 							Forked from
-							<a target="_blank" href="https://www.chrishammond.com/"
-								>Chris Hammond</a
-							>'s <a href="https://jekyllexample.com">JekyllExample.com</a>.
+							<a href="https://www.chrishammond.com/">Chris Hammond</a>'s
+							<a href="https://jekyllexample.com">JekyllExample.com</a>.
 						</div>
 					</div>
 				</div>
