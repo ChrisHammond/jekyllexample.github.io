@@ -251,231 +251,216 @@
 							<!-- Post -->
 
 							<div class="col-md-9 flex-first flex-md-unordered">
-								<article itemscope itemtype="http://schema.org/BlogPosting">
-									<div class="mainheading">
-										<header>
-											<!-- Post Title -->
-											<h1 class="posttitle" itemprop="headline">
-												Getting started with Jekyll
-											</h1>
+								<div class="mainheading">
+									<!-- Author Box -->
 
-											<!-- Post Date -->
-											<div style="float: right">
-												<small>
-													<span class="post-date" style="text-align: right"
-														>Posted:
-														<time
-															class="post-date"
-															datetime="2023-01-31T10:00:15+00:00"
-															itemprop="datePublished"
-															>Jan 31, 2023 10:00</time
-														>
-														<br />
-													</span>
-												</small>
-											</div>
+									<!-- Post Title -->
+									<h1 class="posttitle" itemprop="headline">
+										Getting started with Jekyll
+									</h1>
+								</div>
 
-											<!-- Author Box -->
-										</header>
-									</div>
+								<!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
 
-									<!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+								<!-- End Adsense -->
 
-									<!-- End Adsense -->
+								<!-- Post Featured Image -->
 
-									<!-- Post Featured Image -->
+								<img
+									class="featured-image img-fluid lazyimg"
+									src="/assets/images_out/BlogPost-3-800-20788bfed.jpg"
+									alt="Getting started with Jekyll"
+									srcset="
+										/assets/images_out/BlogPost-3-200-20788bfed.jpg   200w,
+										/assets/images_out/BlogPost-3-400-20788bfed.jpg   400w,
+										/assets/images_out/BlogPost-3-800-20788bfed.jpg   800w,
+										/assets/images_out/BlogPost-3-1600-20788bfed.jpg 1600w,
+										/assets/images_out/BlogPost-3-2000-20788bfed.jpg 2000w
+									"
+								/>
 
-									<img
-										class="featured-image img-fluid lazyimg"
-										src="/assets/images_out/BlogPost-3-800-20788bfed.jpg"
-										alt="Getting started with Jekyll"
-										srcset="
-											/assets/images_out/BlogPost-3-200-20788bfed.jpg   200w,
-											/assets/images_out/BlogPost-3-400-20788bfed.jpg   400w,
-											/assets/images_out/BlogPost-3-800-20788bfed.jpg   800w,
-											/assets/images_out/BlogPost-3-1600-20788bfed.jpg 1600w,
-											/assets/images_out/BlogPost-3-2000-20788bfed.jpg 2000w
-										"
-									/>
+								<!-- End Featured Image -->
 
-									<!-- End Featured Image -->
+								<!-- Post Content -->
+								<div class="article-post">
+									<!-- Toc if any -->
 
-									<!-- Post Content -->
-									<div class="article-post">
-										<!-- Toc if any -->
+									<!-- End Toc -->
+									<p>So you want to get started with Jekyll?</p>
 
-										<!-- End Toc -->
-										<p>So you want to get started with Jekyll?</p>
+									<p>
+										Well, you’ve come to the right place. This post will walk
+										you through the steps to get you going if you’re new to
+										Jekyll and want to get it up and running with a clean
+										instance.<br />
+										We recommend if you’re brand new to Jekyll though you use
+										our other instructions that utilize this site as a template
+										for you to build your own site, complete with theme and
+										sample content.
+									</p>
 
-										<p>
-											Well, you’ve come to the right place. This post will walk
-											you through the steps to get you going if you’re new to
-											Jekyll and want to get it up and running with a clean
-											instance.<br />
-											We recommend if you’re brand new to Jekyll though you use
-											our other instructions that utilize this site as a
-											template for you to build your own site, complete with
-											theme and sample content.
-										</p>
+									<h2 id="get-started">Get Started</h2>
 
-										<h2 id="get-started">Get Started</h2>
+									<p>
+										First, you’ll need to install Jekyll. You can do this by
+										running the following command:
+									</p>
 
-										<p>
-											First, you’ll need to install Jekyll. You can do this by
-											running the following command:
-										</p>
-
-										<div class="language-bash highlighter-rouge">
-											<div class="highlight">
-												<pre
-													class="highlight"
-												><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+									<div class="language-bash highlighter-rouge">
+										<div class="highlight">
+											<pre
+												class="highlight"
+											><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>gem <span class="nb">install </span>jekyll
 </pre></td></tr></tbody></table></code></pre>
-											</div>
 										</div>
+									</div>
 
-										<h2 id="create-a-new-site">Create a New Site</h2>
+									<h2 id="create-a-new-site">Create a New Site</h2>
 
-										<p>
-											Now that you have Jekyll installed, you can create a new
-											site. To do this, run the following command:
-										</p>
+									<p>
+										Now that you have Jekyll installed, you can create a new
+										site. To do this, run the following command:
+									</p>
 
-										<div class="language-bash highlighter-rouge">
-											<div class="highlight">
-												<pre
-													class="highlight"
-												><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+									<div class="language-bash highlighter-rouge">
+										<div class="highlight">
+											<pre
+												class="highlight"
+											><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>jekyll new my-awesome-site
 </pre></td></tr></tbody></table></code></pre>
-											</div>
 										</div>
+									</div>
 
-										<h2 id="serve-your-site">Serve Your Site</h2>
+									<h2 id="serve-your-site">Serve Your Site</h2>
 
-										<p>
-											Now that you have a site, you can serve it locally. To do
-											this, run the following command:
-										</p>
+									<p>
+										Now that you have a site, you can serve it locally. To do
+										this, run the following command:
+									</p>
 
-										<div class="language-bash highlighter-rouge">
-											<div class="highlight">
-												<pre
-													class="highlight"
-												><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+									<div class="language-bash highlighter-rouge">
+										<div class="highlight">
+											<pre
+												class="highlight"
+											><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 </pre></td><td class="rouge-code"><pre><span class="nb">cd </span>my-awesome-site
 jekyll serve
 </pre></td></tr></tbody></table></code></pre>
-											</div>
 										</div>
+									</div>
 
-										<h2 id="make-some-changes">Make Some Changes</h2>
+									<h2 id="make-some-changes">Make Some Changes</h2>
 
-										<p>
-											Now that you have a site, you can make some changes. To do
-											this, open the
-											<code class="language-plaintext highlighter-rouge"
-												>_config.yml</code
-											>
-											file in your favorite text editor and make some changes.
-										</p>
+									<p>
+										Now that you have a site, you can make some changes. To do
+										this, open the
+										<code class="language-plaintext highlighter-rouge"
+											>_config.yml</code
+										>
+										file in your favorite text editor and make some changes.
+									</p>
 
-										<h2 id="commit-your-changes">Commit Your Changes</h2>
+									<h2 id="commit-your-changes">Commit Your Changes</h2>
 
-										<p>
-											Now that you have made some changes, you can commit them.
-											To do this, run the following command:
-										</p>
+									<p>
+										Now that you have made some changes, you can commit them. To
+										do this, run the following command:
+									</p>
 
-										<div class="language-bash highlighter-rouge">
-											<div class="highlight">
-												<pre
-													class="highlight"
-												><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+									<div class="language-bash highlighter-rouge">
+										<div class="highlight">
+											<pre
+												class="highlight"
+											><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 </pre></td><td class="rouge-code"><pre>git add <span class="nb">.</span>
 git commit <span class="nt">-m</span> <span class="s2">"Made some changes"</span>
 </pre></td></tr></tbody></table></code></pre>
-											</div>
 										</div>
+									</div>
 
-										<h2 id="push-your-changes">Push Your Changes</h2>
+									<h2 id="push-your-changes">Push Your Changes</h2>
 
-										<p>
-											Now that you have committed your changes, you can push
-											them. To do this, run the following command:
-										</p>
+									<p>
+										Now that you have committed your changes, you can push them.
+										To do this, run the following command:
+									</p>
 
-										<div class="language-bash highlighter-rouge">
-											<div class="highlight">
-												<pre
-													class="highlight"
-												><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+									<div class="language-bash highlighter-rouge">
+										<div class="highlight">
+											<pre
+												class="highlight"
+											><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>git push origin master
 </pre></td></tr></tbody></table></code></pre>
-											</div>
 										</div>
-
-										<h2 id="conclusion">Conclusion</h2>
-
-										<p>
-											And that’s it! You’ve now got a Jekyll site up and
-											running. You can now make some changes and push them to
-											GitHub Pages.
-										</p>
 									</div>
 
-									<!-- Rating -->
+									<h2 id="conclusion">Conclusion</h2>
 
-									<footer>
-										<!-- Author Box -->
-									</footer>
-									<!-- Post Categories -->
-									<div class="after-post-cats">
-										<ul class="tags mb-4">
-											<small>Categories:</small>
+									<p>
+										And that’s it! You’ve now got a Jekyll site up and running.
+										You can now make some changes and push them to GitHub Pages.
+									</p>
+								</div>
 
-											<li>
-												<a class="smoothscroll" href="/categories#Jekyll"
-													>Jekyll</a
-												>
-											</li>
+								<!-- Rating -->
 
-											<li>
-												<a class="smoothscroll" href="/categories#Tutorial"
-													>Tutorial</a
-												>
-											</li>
-										</ul>
-									</div>
-									<!-- End Categories -->
-
-									<!-- Post Tags -->
-									<div class="after-post-tags">
-										<ul class="tags"></ul>
-									</div>
-									<!-- End Tags -->
-
-									<!-- Prev/Next -->
-									<div
-										class="row PageNavigation d-flex justify-content-between font-weight-bold"
-									>
-										<a class="prev d-block col-md-6" href="/second-blog-post">
-											&laquo; Non-featured Blog Post</a
+								<!-- Post Date -->
+								<p>
+									<small>
+										<span class="post-date"
+											><time class="post-date" datetime="2023-01-31"
+												>31 Jan 2023</time
+											></span
 										>
+									</small>
+								</p>
 
-										<a
-											class="next d-block col-md-6 text-lg-right"
-											href="/easy-installation-instructions-for-jekyll"
-											>Easy instructions for installing Jekyll &raquo;
-										</a>
+								<!-- Post Categories -->
+								<div class="after-post-cats">
+									<ul class="tags mb-4">
+										<li>
+											<a class="smoothscroll" href="/categories#Jekyll"
+												>Jekyll</a
+											>
+										</li>
 
-										<div class="clearfix"></div>
-									</div>
-									<!-- End Categories -->
-								</article>
+										<li>
+											<a class="smoothscroll" href="/categories#Tutorial"
+												>Tutorial</a
+											>
+										</li>
+									</ul>
+								</div>
+								<!-- End Categories -->
+
+								<!-- Post Tags -->
+								<div class="after-post-tags">
+									<ul class="tags"></ul>
+								</div>
+								<!-- End Tags -->
+
+								<!-- Prev/Next -->
+								<div
+									class="row PageNavigation d-flex justify-content-between font-weight-bold"
+								>
+									<a class="prev d-block col-md-6" href="/second-blog-post">
+										&laquo; Non-featured Blog Post</a
+									>
+
+									<a
+										class="next d-block col-md-6 text-lg-right"
+										href="/easy-installation-instructions-for-jekyll"
+										>Easy instructions for installing Jekyll &raquo;
+									</a>
+
+									<div class="clearfix"></div>
+								</div>
+								<!-- End Categories -->
 							</div>
 							<!-- End Post -->
 						</div>

@@ -251,129 +251,115 @@
 							<!-- Post -->
 
 							<div class="col-md-9 flex-first flex-md-unordered">
-								<article itemscope itemtype="http://schema.org/BlogPosting">
-									<div class="mainheading">
-										<header>
-											<!-- Post Title -->
-											<h1 class="posttitle" itemprop="headline">
-												Non-featured Blog Post
-											</h1>
+								<div class="mainheading">
+									<!-- Author Box -->
 
-											<!-- Post Date -->
-											<div style="float: right">
-												<small>
-													<span class="post-date" style="text-align: right"
-														>Posted:
-														<time
-															class="post-date"
-															datetime="2022-11-01T01:00:15+00:00"
-															itemprop="datePublished"
-															>Nov 1, 2022 01:00</time
-														>
-														<br />
-													</span>
-												</small>
-											</div>
+									<!-- Post Title -->
+									<h1 class="posttitle" itemprop="headline">
+										Non-featured Blog Post
+									</h1>
+								</div>
 
-											<!-- Author Box -->
-										</header>
-									</div>
+								<!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
 
-									<!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+								<!-- End Adsense -->
 
-									<!-- End Adsense -->
+								<!-- Post Featured Image -->
 
-									<!-- Post Featured Image -->
+								<img
+									class="featured-image img-fluid lazyimg"
+									src="/assets/images_out/BlogPost-2-800-24a43787f.jpg"
+									alt="Non-featured Blog Post"
+									srcset="
+										/assets/images_out/BlogPost-2-200-24a43787f.jpg   200w,
+										/assets/images_out/BlogPost-2-400-24a43787f.jpg   400w,
+										/assets/images_out/BlogPost-2-800-24a43787f.jpg   800w,
+										/assets/images_out/BlogPost-2-1600-24a43787f.jpg 1600w,
+										/assets/images_out/BlogPost-2-2000-24a43787f.jpg 2000w
+									"
+								/>
 
-									<img
-										class="featured-image img-fluid lazyimg"
-										src="/assets/images_out/BlogPost-2-800-24a43787f.jpg"
-										alt="Non-featured Blog Post"
-										srcset="
-											/assets/images_out/BlogPost-2-200-24a43787f.jpg   200w,
-											/assets/images_out/BlogPost-2-400-24a43787f.jpg   400w,
-											/assets/images_out/BlogPost-2-800-24a43787f.jpg   800w,
-											/assets/images_out/BlogPost-2-1600-24a43787f.jpg 1600w,
-											/assets/images_out/BlogPost-2-2000-24a43787f.jpg 2000w
-										"
-									/>
+								<!-- End Featured Image -->
 
-									<!-- End Featured Image -->
+								<!-- Post Content -->
+								<div class="article-post">
+									<!-- Toc if any -->
 
-									<!-- Post Content -->
-									<div class="article-post">
-										<!-- Toc if any -->
+									<!-- End Toc -->
+									<p>
+										This is the second blog post, the difference is that this
+										one is not featured.
+									</p>
 
-										<!-- End Toc -->
-										<p>
-											This is the second blog post, the difference is that this
-											one is not featured.
-										</p>
+									<blockquote>
+										<p>This is a quote inside that first blog post</p>
+									</blockquote>
 
-										<blockquote>
-											<p>This is a quote inside that first blog post</p>
-										</blockquote>
+									<ol>
+										<li>This is a list item</li>
+										<li>This is a second list item</li>
+									</ol>
 
-										<ol>
-											<li>This is a list item</li>
-											<li>This is a second list item</li>
-										</ol>
+									<h1 id="header-1">Header 1</h1>
+									<p>Some text under header 1</p>
 
-										<h1 id="header-1">Header 1</h1>
-										<p>Some text under header 1</p>
+									<h2 id="header-2">Header 2</h2>
+									<p>Some text under header 2</p>
 
-										<h2 id="header-2">Header 2</h2>
-										<p>Some text under header 2</p>
+									<h3 id="header-3">Header 3</h3>
+									<p>Some text under header 3</p>
 
-										<h3 id="header-3">Header 3</h3>
-										<p>Some text under header 3</p>
+									<p><a href="https://www.christoc.com">This is a link</a></p>
+								</div>
 
-										<p><a href="https://www.christoc.com">This is a link</a></p>
-									</div>
+								<!-- Rating -->
 
-									<!-- Rating -->
-
-									<footer>
-										<!-- Author Box -->
-									</footer>
-									<!-- Post Categories -->
-									<div class="after-post-cats">
-										<ul class="tags mb-4">
-											<small>Categories:</small>
-
-											<li>
-												<a class="smoothscroll" href="/categories#Sample"
-													>Sample</a
-												>
-											</li>
-										</ul>
-									</div>
-									<!-- End Categories -->
-
-									<!-- Post Tags -->
-									<div class="after-post-tags">
-										<ul class="tags"></ul>
-									</div>
-									<!-- End Tags -->
-
-									<!-- Prev/Next -->
-									<div
-										class="row PageNavigation d-flex justify-content-between font-weight-bold"
-									>
-										<a class="prev d-block col-md-6" href="/first-blog-post">
-											&laquo; First Blog Post</a
+								<!-- Post Date -->
+								<p>
+									<small>
+										<span class="post-date"
+											><time class="post-date" datetime="2022-11-01"
+												>01 Nov 2022</time
+											></span
 										>
+									</small>
+								</p>
 
-										<a
-											class="next d-block col-md-6 text-lg-right"
-											href="/getting-started-with-jekyll"
-											>Getting started with Jekyll &raquo;
-										</a>
+								<!-- Post Categories -->
+								<div class="after-post-cats">
+									<ul class="tags mb-4">
+										<li>
+											<a class="smoothscroll" href="/categories#Sample"
+												>Sample</a
+											>
+										</li>
+									</ul>
+								</div>
+								<!-- End Categories -->
 
-										<div class="clearfix"></div>
-									</div>
-									<!-- End Categories -->
-								</article>
+								<!-- Post Tags -->
+								<div class="after-post-tags">
+									<ul class="tags"></ul>
+								</div>
+								<!-- End Tags -->
+
+								<!-- Prev/Next -->
+								<div
+									class="row PageNavigation d-flex justify-content-between font-weight-bold"
+								>
+									<a class="prev d-block col-md-6" href="/first-blog-post">
+										&laquo; First Blog Post</a
+									>
+
+									<a
+										class="next d-block col-md-6 text-lg-right"
+										href="/getting-started-with-jekyll"
+										>Getting started with Jekyll &raquo;
+									</a>
+
+									<div class="clearfix"></div>
+								</div>
+								<!-- End Categories -->
 							</div>
 							<!-- End Post -->
 						</div>
