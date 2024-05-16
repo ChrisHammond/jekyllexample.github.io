@@ -28,13 +28,10 @@
 <loc>https://www.jekyllexample.com/about</loc>
 </url>
 <url>
-<loc>https://www.jekyllexample.com/categories</loc>
+<loc>https://www.jekyllexample.com/category</loc>
 </url>
 <url>
 <loc>https://www.jekyllexample.com/</loc>
-</url>
-<url>
-<loc>https://www.jekyllexample.com/tags</loc>
 </url>
 <url>
 <loc>https://www.jekyllexample.com/category/sample/</loc>
