@@ -48,7 +48,7 @@ var documents = [{
     "id": 9,
     "url": "https://www.JekyllExample.com/sample-jekyll-sites",
     "title": "Example Jekyll Sites based on this Repository",
-    "body": "2023/02/01 - This blog post will be an ongoing list with some examples of websites that have been built based on this template/sample/repository!  AutocrossBlog"
+    "body": "2023/02/01 - This blog post will be an ongoing list with some examples of websites that have been built based on this template/sample/repository!  AutocrossBlog ProjectVW"
     }, {
     "id": 10,
     "url": "https://www.JekyllExample.com/easy-installation-instructions-for-jekyll",
