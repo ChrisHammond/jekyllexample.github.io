@@ -25,7 +25,7 @@ authors:
     web: https://www.chrishammond.com
     twitter: https://twitter.com/christoc
     twitterhandle: christoc
-    description: "Creator of JekyllExample.com. Read more at <a href\"https://www.chrishammond.com\">ChrisHammond.com</a>" 
+    description: "Creator of JekyllExample.com. Read more at <a href=\"https://www.chrishammond.com\">ChrisHammond.com</a>" 
 
 # Plugins
 plugins:
