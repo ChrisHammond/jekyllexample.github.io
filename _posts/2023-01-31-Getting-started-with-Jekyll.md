@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Getting started with Jekyll
+description: A simple list of steps to get started with Jekyll. 
 date: '2023-01-31T10:00:15+00:00'
+last_modified_at: '2024-05-16T08:05:00+00:00'
 permalink: getting-started-with-jekyll
 image: BlogPost-3.jpg
 categories: [ Jekyll, Tutorial ]

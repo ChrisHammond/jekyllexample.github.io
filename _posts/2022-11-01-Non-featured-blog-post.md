@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Non-featured Blog Post
+description: "A description for this non-featured blog post"
 date: '2022-11-01T01:00:15+00:00'
 permalink: second-blog-post
 image: BlogPost-2.jpg
