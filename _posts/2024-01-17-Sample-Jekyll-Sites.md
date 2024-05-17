@@ -10,8 +10,8 @@ categories: [ Jekyll, Sample, Example ]
 featured: true
 comments: false 
 ---
-This blog post will be an ongoing list with some examples of websites that have been built based on this template/sample/repository!
+This blog post will be an ongoing list with some examples of websites that have been built based on this template/sample/repository! If you have a site built on this template that you would like highlighted, please [contact Chris Hammond](https://chrishammond.com/contact)
 
-- [AutocrossBlog](https://www.autocrossblog.com)
-- [ProjectVW](https://www.projectvw.com)
-- [BicycleTips](https://www.bicycletips.com)
+- [AutocrossBlog](https://www.autocrossblog.com) - A simple blog for 24+ years of autocross
+- [ProjectVW](https://www.projectvw.com) - Help Chris find his first car, a 1973 VW Super Beetle
+- [BicycleTips](https://www.bicycletips.com) - Tips and tricks for gravel bike riding

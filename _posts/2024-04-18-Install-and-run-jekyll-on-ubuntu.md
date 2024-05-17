@@ -9,7 +9,7 @@ categories: [ Jekyll, Tutorial ]
 featured: true
 comments: false 
 ---
-# *This post is still a work in progress as of 04/18/2024*
+## *This post is still a work in progress as of 05/17/2024*
 
 1. Create a new Hyper-V VM installing Ubuntu 22.04
 2. Run updates for Ubuntu (reboot if necessary)
