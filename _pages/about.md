@@ -6,7 +6,7 @@ comments: false
 redirect_from: 
   - "/About"
 ---
-{% picture About-1.jpg %}
+{% picture About-1.jpg --alt About JekyllExample.com header photo %}
 
 JekyllExample.com is a sample blog template from [Chris Hammond](https://www.chrishammond.com/)
 
