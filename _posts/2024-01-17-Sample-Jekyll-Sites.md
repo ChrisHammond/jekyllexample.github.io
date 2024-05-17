@@ -14,3 +14,4 @@ This blog post will be an ongoing list with some examples of websites that have 
 
 - [AutocrossBlog](https://www.autocrossblog.com)
 - [ProjectVW](https://www.projectvw.com)
+- [BicycleTips](https://www.bicycletips.com)
