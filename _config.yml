@@ -20,12 +20,14 @@ authors:
   chris:
     name: Chris Hammond
     display_name: Chris Hammond
+    first_name: Chris
+    last_name: Hammond
     gravatar: bff097b7cc348bebce39ee1c7694d125
-    email: christoc@christoc.com
+    email: jekyll@christoc.com
     web: https://www.chrishammond.com
     twitter: https://twitter.com/christoc
     twitterhandle: christoc
-    description: "Creator of JekyllExample.com. Read more at <a href=\"https://www.chrishammond.com\">ChrisHammond.com</a>" 
+    description: "Creator of JekyllExample.com. Read more at <a href=\"https://www.chrishammond.com\">Chris Hammond</a>" 
 
 # Plugins
 plugins:
