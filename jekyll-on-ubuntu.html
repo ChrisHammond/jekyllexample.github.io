@@ -86,6 +86,49 @@
 		<link href="/assets/css/main.css" rel="stylesheet" />
 
 		<script src="/assets/js/jquery.min.js"></script>
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "BlogPosting",
+				"url": "https://www.jekyllexample.com/jekyll-on-ubuntu",
+				"name": "Installing Jekyll locally on Ubuntu and getting it running using Windows Hyper-V",
+				"headline": "Installing Jekyll locally on Ubuntu and getting it running using Windows Hyper-V",
+				"keywords": "",
+				"description": "This post is still a work in progress as of 05/17/2024",
+				"articleBody": "This post is still a work in progress as of 05/17/2024\n\n\n  Create a new Hyper-V VM installing Ubuntu 22.04\n  Run updates for Ubuntu (reboot if necessary)\n  Install GIT\n    \n      sudo apt install git\n    \n  \n  Install Bundler\n    \n      sudo apt install bundler\n    \n  \n  Install RBEnv to allow for multiple versions of Ruby\n  Install Jekyll GEM\n  Install other required libraries\n    \n      sudo apt install libvips-tools\n    \n  \n  Create a projects directory via a terminal:\n    \n      mkdir projects\n    \n  \n  Navigate into the project directory:\n    \n      cd projects\n    \n  \n  Clone the JekyllExample repository, from a Terminal in Ubunty type\n    \n      git clone https://github.com/ChrisHammond/jekyllexample.github.io.git\n    \n  \n  Navigate into the new directory\n    \n      cd jekyllexample.github.io\n    \n  \n  Run the following terminal command to get everything installed properly\n    \n      bundle install\n    \n  \n  Run Jekyll to start a local webserver\n    \n      bundle exec jekyll serve\n    \n  \n  Browse to http://127.0.0.1:4000 in your web browser\n\n\nNext steps:\n\n  If you have a large repository, or a large number of repositories, you might run out of disk space on your Hyper-V VM, if that’s the case check out this tutorial for how to expand your Ubuntu disk.\n  Install Homebrew and Git Credential Manager\n    \n      /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”\n    \n  \n\n\n\n  brew tap microsoft/git\nbrew install –cask git-credential-manager-core\n\n",
+				"datePublished": "2024-04-18 10:00:15 +0000",
+				"dateModified": "2024-04-18 10:00:15 +0000",
+
+				"author": {
+					"@type": "Person",
+					"name": null,
+					"givenName": null,
+					"familyName": null,
+					"email": null,
+					"url": ""
+				},
+
+				"publisher": {
+					"@type": "Organization",
+					"name": "JekyllExample.com - A sample Jekyll Example website! ",
+					"url": "https://www.jekyllexample.com",
+					"logo": {
+						"@type": "ImageObject",
+						"width": 32,
+						"height": 32,
+						"url": "https://www.jekyllexample.com//assets/favicon.ico"
+					}
+				},
+				"mainEntityOfPage": {
+					"@type": "WebPage",
+					"@id": "https://www.jekyllexample.com//jekyll-on-ubuntu"
+				},
+				"image": [
+					"https://www.jekyllexample.com/assets/images_out/BlogPost-4-1600-242f9970b.jpg"
+				]
+			}
+		</script>
 	</head>
 
 	<body class="layout-post">
@@ -248,7 +291,7 @@
 							<!-- Post -->
 
 							<div class="col-md-9 flex-first flex-md-unordered">
-								<article itemscope itemtype="http://schema.org/BlogPosting">
+								<article itemscope itemtype="https://schema.org/BlogPosting">
 									<div class="mainheading">
 										<header>
 											<!-- Post Title -->
@@ -279,20 +322,17 @@
 												<div
 													class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left"
 												>
-													<div itemtype="http://schema.org/Person">
-														By:
-														<a
-															class="link-dark"
-															href="https://www.chrishammond.com"
-															itemprop="sameAs"
-															><span itemprop="name">Chris Hammond</span></a
-														><a
-															href="https://twitter.com/christoc"
-															class="btn follow"
-															itemprop="sameAs"
-															>Follow</a
-														>
-													</div>
+													By:
+													<a
+														class="link-dark"
+														href="https://www.chrishammond.com"
+														>Chris Hammond</a
+													>
+													<a
+														href="https://twitter.com/christoc"
+														class="btn follow"
+														>Follow</a
+													>
 												</div>
 											</div>
 										</header>
@@ -306,6 +346,7 @@
 
 									<img
 										class="featured-image img-fluid lazyimg"
+										itemprop="image"
 										src="/assets/images_out/BlogPost-4-800-242f9970b.jpg"
 										alt="Installing Jekyll locally on Ubuntu and getting it running using Windows Hyper-V"
 										srcset="
@@ -320,7 +361,7 @@
 									<!-- End Featured Image -->
 
 									<!-- Post Content -->
-									<div class="article-post">
+									<div class="article-post" itemprop="articleBody">
 										<!-- Toc if any -->
 
 										<!-- End Toc -->
@@ -446,7 +487,10 @@
 
 										<div class="row post-top-meta">
 											<div
-												class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left"
+												class="col-xs-12 col-md-12 col-lg-12 text-center text-md-left"
+												itemscope
+												itemprop="author"
+												itemtype="https://schema.org/Person"
 											>
 												<h3>About the Author:</h3>
 												<div
@@ -460,25 +504,22 @@
 												</div>
 												<div
 													class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left"
-													itemprop="author"
-													itemtype="http://schema.org/Person"
 												>
 													<a
 														class="link-dark"
 														href="https://www.chrishammond.com"
-														itemprop="sameAs"
-														><span itemprop="name">Chris Hammond</span></a
+														itemprop="url"
+														><div itemprop="name">Chris Hammond</div></a
 													><a
 														href="https://twitter.com/christoc"
 														class="btn follow"
-														itemprop="sameAs"
 														>Follow</a
 													>
 												</div>
 												<span class="author-description" itemprop="description"
 													>Creator of JekyllExample.com. Read more at
 													<a href="https://www.chrishammond.com"
-														>ChrisHammond.com</a
+														>Chris Hammond</a
 													></span
 												>
 											</div>
@@ -541,10 +582,6 @@
 ================================================== -->
 
 					<!--End Comments
-================================================== -->
-
-					<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
-https://search.google.com/structured-data/testing-tool/u/0/
 ================================================== -->
 				</main>
 			</div>
