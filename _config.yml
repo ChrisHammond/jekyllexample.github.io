@@ -1,8 +1,8 @@
 # Site Settings
 # You can change the settings below in order to customize your website.
-name: "JekyllExample.com"
-title: "JekyllExample.com - A sample Jekyll Example website! "
-description: "A sample website built on the Jekyll platform designed to make it easy for you to get a website of your own up and running."
+name: "JekyllExample.com" # this will be used in combination with page names/titles to create the HTML title for your site
+title: "JekyllExample.com - A sample Jekyll Example website! " # this will be used for the HTML TITLE tag where pages don't have their own title defined
+description: "A sample website built on the Jekyll platform designed to make it easy for you to get a website of your own up and running." #the description that will be used on all pages that don't have their own description defined
 logo: 'assets/Logo.png'
 favicon: '/assets/favicon.ico'
 baseurl: ""
