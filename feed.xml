@@ -5,9 +5,56 @@
     <description>A sample website built on the Jekyll platform designed to make it easy for you to get a website of your own up and running.</description>
     <link>https://www.jekyllexample.com/</link>
     <atom:link href="https://www.jekyllexample.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Jun 2024 18:54:24 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Jun 2024 18:54:24 +0000</lastBuildDate>
+    <pubDate>Fri, 21 Jun 2024 14:59:45 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Jun 2024 14:59:45 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Using structured content in Jekyll for your own website</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In the ever-evolving world of SEO and web development, structured content has become a cornerstone for creating high-performing, search-engine-friendly websites. For those who use static site generators like Jekyll, leveraging structured content can significantly enhance your site’s visibility and usability. In this blog post, we’ll explore the benefits of using structured content with Jekyll, specifically focusing on the JekyllExample.com template/repo.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-structured-content&quot;&gt;What is Structured Content?&lt;/h2&gt;
+
+&lt;p&gt;Structured content is a way of organizing information on your website so that it is easily understood by search engines and other web services. This is often achieved using schema markup (or structured data), which provides context to your content, making it more accessible and indexable. Common types of structured data include information about articles, events, products, and reviews, among others.&lt;/p&gt;
+
+&lt;h2 id=&quot;benefits-of-structured-content&quot;&gt;Benefits of Structured Content&lt;/h2&gt;
+
+&lt;h3 id=&quot;improved-seo&quot;&gt;Improved SEO&lt;/h3&gt;
+
+&lt;p&gt;One of the primary benefits of structured content is its impact on SEO. By adding schema markup to your Jekyll site, you provide search engines with detailed information about your content. This can result in better indexing and higher rankings, as search engines can more accurately understand and present your content to users.&lt;/p&gt;
+
+&lt;h3 id=&quot;enhanced-rich-snippets&quot;&gt;Enhanced Rich Snippets&lt;/h3&gt;
+
+&lt;p&gt;Structured data can enhance the appearance of your site in search results by generating rich snippets. These are enhanced listings that show additional information, such as ratings, authors, and dates, directly in the search results. Rich snippets can improve your click-through rates by making your listings more attractive and informative.&lt;/p&gt;
+
+&lt;h3 id=&quot;better-content-organization&quot;&gt;Better Content Organization&lt;/h3&gt;
+
+&lt;p&gt;Using structured content helps you maintain a consistent and organized format for your information. This is particularly useful for larger websites with diverse content types. It ensures that each piece of content follows a set structure, making it easier to manage and update.&lt;/p&gt;
+
+&lt;h3 id=&quot;improved-accessibility&quot;&gt;Improved Accessibility&lt;/h3&gt;
+
+&lt;p&gt;Structured content can also improve the accessibility of your site. By providing clear, well-defined data structures, you make it easier for assistive technologies, like screen readers, to interpret and present your content to users with disabilities.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-the-jekyllexamplecom-template&quot;&gt;Using the JekyllExample.com Template&lt;/h2&gt;
+
+&lt;p&gt;The JekyllExample.com template/repo is an excellent starting point for those looking to implement structured content on a Jekyll-based website. This template comes with built-in support for structured data, specifically using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BlogPosting&lt;/code&gt; schema type. If your site requires a different content type, such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Article&lt;/code&gt;, you can easily modify the schema type to fit your needs.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Integrating structured content into your Jekyll site using the JekyllExample.com template can significantly enhance your site’s SEO, user experience, and accessibility. By providing clear, organized data to search engines and assistive technologies, you make your content more discoverable and user-friendly. Start leveraging the power of structured content today and watch your Jekyll site soar in the search rankings.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Jun 2024 10:00:15 +0000</pubDate>
+        <link>https://www.jekyllexample.com/structured-content-in-jekyll</link>
+        <guid isPermaLink="true">https://www.jekyllexample.com/structured-content-in-jekyll</guid>
+        
+        
+        <category>Jekyll</category>
+        
+        <category>Tutorial</category>
+        
+      </item>
     
       <item>
         <title>Installing Jekyll locally on Ubuntu and getting it running using Windows Hyper-V</title>
