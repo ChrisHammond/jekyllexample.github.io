@@ -5,12 +5,12 @@
     <description>A sample website built on the Jekyll platform designed to make it easy for you to get a website of your own up and running.</description>
     <link>https://www.jekyllexample.com/</link>
     <atom:link href="https://www.jekyllexample.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Jun 2024 15:18:35 +0000</pubDate>
-    <lastBuildDate>Mon, 24 Jun 2024 15:18:35 +0000</lastBuildDate>
+    <pubDate>Mon, 24 Jun 2024 19:23:40 +0000</pubDate>
+    <lastBuildDate>Mon, 24 Jun 2024 19:23:40 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
       <item>
-        <title>Using structured content in Jekyll for your own website</title>
+        <title>Structured Content in Jekyll</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;In the ever-evolving world of SEO and web development, structured content has become a cornerstone for creating high-performing, search-engine-friendly websites. For those who use static site generators like Jekyll, leveraging structured content can significantly enhance your site’s visibility and usability. In this blog post, we’ll explore the benefits of using structured content with Jekyll, specifically focusing on the JekyllExample.com template/repo.&lt;/p&gt;
