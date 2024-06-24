@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Using structured content in Jekyll for your own website
+title: Structured Content in Jekyll
 date: '2024-06-21T10:00:15+00:00'
 permalink: structured-content-in-jekyll
 description: A blog post showing how Structured Content can be leveraged using this JekyllExample project to help get your content out to the masses. 
 image: BlogPost-5.jpg
+keywords: 'jekyll, tutorial, structured, json, content'
 categories: [ Jekyll, Tutorial ]
 featured: true
 comments: false 
