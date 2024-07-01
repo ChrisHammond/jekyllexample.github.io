@@ -2,7 +2,7 @@
 layout: post
 title: Structured Content in Jekyll
 date: '2024-06-21T10:00:15+00:00'
-last_modified_at: '2024-06-24T14:44:00+00:00'
+last_modified_at: '2024-07-01T15:58:25+00:00'
 permalink: structured-content-in-jekyll
 description: A blog post showing how Structured Content can be leveraged using this JekyllExample project to help get your content out to the masses. 
 image: BlogPost-5.jpg

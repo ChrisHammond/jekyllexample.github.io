@@ -2,7 +2,7 @@
 layout: post
 title: Easy instructions for installing Jekyll 
 date: '2023-02-01T10:00:15+00:00'
-last_modified_at: '2024-05-16T08:05:00+00:00'
+last_modified_at: '2024-07-01T15:58:25+00:00'
 permalink: easy-installation-instructions-for-jekyll
 description: A blog post that provides easy instructions for installing Jekyll.
 image: BlogPost-4.jpg
