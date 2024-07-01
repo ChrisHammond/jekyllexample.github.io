@@ -98,7 +98,7 @@
 				"description": "A blog post that provides easy instructions for installing Jekyll locally on Ubuntu running in a Windows Hyper-V Virtual Machine.",
 				"articleBody": "This post is still a work in progress as of 05/17/2024\n\n\n  Create a new Hyper-V VM installing Ubuntu 22.04\n  Run updates for Ubuntu (reboot if necessary)\n  Install GIT\n    \n      sudo apt install git\n    \n  \n  Install Bundler\n    \n      sudo apt install bundler\n    \n  \n  Install RBEnv to allow for multiple versions of Ruby\n  Install Jekyll GEM\n  Install other required libraries\n    \n      sudo apt install libvips-tools\n    \n  \n  Create a projects directory via a terminal:\n    \n      mkdir projects\n    \n  \n  Navigate into the project directory:\n    \n      cd projects\n    \n  \n  Clone the JekyllExample repository, from a Terminal in Ubunty type\n    \n      git clone https://github.com/ChrisHammond/jekyllexample.github.io.git\n    \n  \n  Navigate into the new directory\n    \n      cd jekyllexample.github.io\n    \n  \n  Run the following terminal command to get everything installed properly\n    \n      bundle install\n    \n  \n  Run Jekyll to start a local webserver\n    \n      bundle exec jekyll serve\n    \n  \n  Browse to http://127.0.0.1:4000 in your web browser\n\n\nNext steps:\n\n  If you have a large repository, or a large number of repositories, you might run out of disk space on your Hyper-V VM, if that’s the case check out this tutorial for how to expand your Ubuntu disk.\n  Install Homebrew and Git Credential Manager\n    \n      /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”\n    \n  \n\n\n\n  brew tap microsoft/git\nbrew install –cask git-credential-manager-core\n\n",
 				"datePublished": "2024-04-18 10:00:15 +0000",
-				"dateModified": "2024-04-18 10:00:15 +0000",
+				"dateModified": "2024-07-01T15:58:25+00:00",
 
 				"author": {
 					"@type": "Person",
@@ -312,6 +312,13 @@
 															>Apr 18, 2024 10:00</time
 														>
 														<br />
+
+														(Updated:
+														<time
+															datetime="2024-07-01T15:58:25+00:00"
+															itemprop="dateModified"
+															>Jul 1, 2024 15:58</time
+														>)
 													</span>
 												</small>
 											</div>
