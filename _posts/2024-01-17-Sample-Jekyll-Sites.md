@@ -14,4 +14,5 @@ This blog post will be an ongoing list with some examples of websites that have 
 
 - [AutocrossBlog](https://www.autocrossblog.com) - A simple blog for 24+ years of autocross
 - [ProjectVW](https://www.projectvw.com) - Help Chris find his first car, a 1973 VW Super Beetle
+- [NissanEV](https://www.nissanev.com) - Chris almost went electric years ago!
 - [BicycleTips](https://www.bicycletips.com) - Tips and tricks for gravel bike riding
