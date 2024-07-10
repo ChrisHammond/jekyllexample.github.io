@@ -3,7 +3,7 @@ layout: post
 title: Example Jekyll Sites based on this Repository
 description: A list of sites built on this template
 date: '2023-02-01T10:00:15+00:00'
-last_modified_at: '2024-07-01T15:58:25+00:00'
+last_modified_at: '2024-07-10T10:58:25+00:00'
 permalink: sample-jekyll-sites
 image: 
 categories: [ Jekyll, Sample, Example ]
