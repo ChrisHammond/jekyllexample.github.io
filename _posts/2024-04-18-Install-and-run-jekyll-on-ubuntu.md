@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing Jekyll locally on Ubuntu and getting it running using Windows Hyper-V
+title: Installing Jekyll locally on Ubuntu using Windows Hyper-V
 date: '2024-04-18T10:00:15+00:00'
 permalink: jekyll-on-ubuntu
 description: "A blog post that provides easy instructions for installing Jekyll locally on Ubuntu running in a Windows Hyper-V Virtual Machine."
