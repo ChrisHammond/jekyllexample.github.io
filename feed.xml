@@ -5,8 +5,8 @@
     <description>A sample website built on the Jekyll platform designed to make it easy for you to get a website of your own up and running.</description>
     <link>https://www.jekyllexample.com/</link>
     <atom:link href="https://www.jekyllexample.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Nov 2024 15:37:16 +0000</pubDate>
-    <lastBuildDate>Fri, 15 Nov 2024 15:37:16 +0000</lastBuildDate>
+    <pubDate>Fri, 15 Nov 2024 16:19:04 +0000</pubDate>
+    <lastBuildDate>Fri, 15 Nov 2024 16:19:04 +0000</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -57,7 +57,7 @@
       </item>
     
       <item>
-        <title>Installing Jekyll locally on Ubuntu and getting it running using Windows Hyper-V</title>
+        <title>Installing Jekyll locally on Ubuntu using Windows Hyper-V</title>
         <description>&lt;h2 id=&quot;this-post-is-still-a-work-in-progress-as-of-05172024&quot;&gt;&lt;em&gt;This post is still a work in progress as of 05/17/2024&lt;/em&gt;&lt;/h2&gt;
 
 &lt;ol&gt;
