@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Blog Post
-description: "A sample blog post for JekyllExample.com"
+description: "A sample blog post for JekyllExample.com. There isn't much to it but it does highlight some markdown formatting."
 date: '2022-07-10T23:00:15+00:00'
 last_modified_at: '2024-07-01T15:58:25+00:00'
 permalink: first-blog-post

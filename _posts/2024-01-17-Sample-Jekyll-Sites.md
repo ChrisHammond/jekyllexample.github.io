@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example Jekyll Sites based on this Repository
-description: A list of sites built on this template
+description: "A list of sites built on this template. Do you have an example site that you would like included?"
 date: '2023-02-01T10:00:15+00:00'
 last_modified_at: '2024-07-10T10:58:25+00:00'
 permalink: sample-jekyll-sites

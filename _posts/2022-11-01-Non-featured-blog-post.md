@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Non-featured Blog Post
-description: "A description for this non-featured blog post"
+description: "A description for this non-featured blog post. This is just another example with some markdown but isn't highlighted as featured."
 date: '2022-11-01T01:00:15+00:00'
 permalink: second-blog-post
 image: BlogPost-2.jpg
