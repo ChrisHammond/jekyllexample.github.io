@@ -1,4 +1,4 @@
-# JekyllExample.com
+# JekyllExample
 
 Welcome to JekyllExample! A template repository for getting a simple blog up and running on Jekyll using GitHub and GitHub Pages for publishing the site.
 
@@ -8,7 +8,7 @@ Using this template you can get a simple blog up and running, hosted on GitHub p
 This is a Jekyll installation, thru GitHub Workflows/Actions an automated deployment occurs every time you check in code to the DEV (make this your default) branch. After a commit occurs, the pipeline begins by installing Ubuntu and a couple of necessary libraries. The Jekyll application runs and creates the static content for your site which is then committed to the main branch and published to GitHub Pages through a deployment. Depending on the site of your site (content/images), this can take a few minutes to complete.
 
 ## How To Get Started
-To get started please read our tutorial blog post [How to use this repository](http://www.jekyllexample.com/easy-installation-instructions-for-jekyll)
+To get started please read our tutorial blog post [How to use this repository]([/easy-installation-instructions-for-jekyll](https://github.com/ChrisHammond/jekyllexample.github.io/blob/dev/_posts/2023-02-01-Easy-instructions-to-install-jekyll.md))
 
 ## Issues 
 If you run into issues, [please open an issue on this repository](https://github.com/ChrisHammond/jekyllexample.github.io/issues).
@@ -25,3 +25,7 @@ This file will contain high level release notes, you can find [individual commit
 
 ### 9/3/2023 
 - Updated Workflow to use Ruby 3 to fix Gemfile.lock issues
+
+### 2/2/2026
+- This repository is no longer maintained
+
