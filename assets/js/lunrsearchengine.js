@@ -53,7 +53,7 @@ var documents = [{
     "id": 10,
     "url": "https://www.jekyllexample.com/sample-jekyll-sites",
     "title": "Example Jekyll Sites based on this Repository",
-    "body": "2023/02/01 - This blog post will be an ongoing list with some examples of websites that have been built based on this template/sample/repository! If you have a site built on this template that you would like highlighted, please contact Chris Hammond  AutocrossBlog - A simple blog for 24+ years of autocross ProjectVW - Help Chris find his first car, a 1973 VW Super Beetle NissanEV - Chris almost went electric years ago! BicycleTips - Tips and tricks for gravel bike riding"
+    "body": "2023/02/01 - This blog post will be an ongoing list with some examples of websites that have been built based on this template/sample/repository! If you have a site built on this template that you would like highlighted, please contact Chris Hammond  Remotved"
     }, {
     "id": 11,
     "url": "https://www.jekyllexample.com/easy-installation-instructions-for-jekyll",

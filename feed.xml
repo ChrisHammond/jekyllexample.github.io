@@ -5,8 +5,8 @@
     <description>A sample website built on the Jekyll platform designed to make it easy for you to get a website of your own up and running.</description>
     <link>https://www.jekyllexample.com/</link>
     <atom:link href="https://www.jekyllexample.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Feb 2026 16:42:49 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Feb 2026 16:42:49 +0000</lastBuildDate>
+    <pubDate>Mon, 02 Feb 2026 16:43:50 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Feb 2026 16:43:50 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -144,10 +144,7 @@ brew install –cask git-credential-manager-core&lt;/p&gt;
         <description>&lt;p&gt;This blog post will be an ongoing list with some examples of websites that have been built based on this template/sample/repository! If you have a site built on this template that you would like highlighted, please &lt;a href=&quot;https://chrishammond.com/contact&quot;&gt;contact Chris Hammond&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.autocrossblog.com&quot;&gt;AutocrossBlog&lt;/a&gt; - A simple blog for 24+ years of autocross&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.projectvw.com&quot;&gt;ProjectVW&lt;/a&gt; - Help Chris find his first car, a 1973 VW Super Beetle&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nissanev.com&quot;&gt;NissanEV&lt;/a&gt; - Chris almost went electric years ago!&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bicycletips.com&quot;&gt;BicycleTips&lt;/a&gt; - Tips and tricks for gravel bike riding&lt;/li&gt;
+  &lt;li&gt;Remotved&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 01 Feb 2023 10:00:15 +0000</pubDate>
